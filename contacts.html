@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Black Work Gym</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/contacts.css">
+        <link href="https://fonts.googleapis.com/css?family=Pirata+One&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+           <div class="header-blackLine">
+               <img class="header-blackLineImg" src="img/header-sparta-logo.png" alt="white spartan helmet">
+                <div class="header-logoContainer">
+                   <a href="index.html"><img class="header-mainLogo img-fluid" src="img/logo.png" alt="center logo"></a>
+                </div>
+               <p class="header-gymName">Black Work GYM</p>
+           </div>
+           <nav>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html">HOME</a>
+                    <a href="html/sports.html">SPORTS</a>
+                    <a href="html/gallery.html">GALLERY</a>
+                    <a href="html/contacts.html">CONTACTS</a>
+                    <a href="html/location.html">LOCATION</a>
+                    <a id="menu" href="#" class="icon">&#9776;</a>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <main>
+                <p class="message">Please fill out this form and we will contact you</p>
+                <form class="form" action="https://formspree.io/f/moqpynkw" method="POST">
+                    <p><label class="question">Your gender:</label><br>
+                        <label><input type="radio" name="Gender" value="Male" class="form_input">Male</label>
+                        <label><input type="radio" name="Gender" value="Female">Female</label>
+                        <label><input type="radio" name="Gender" value="Other">Other</label>
+                    </p>
+    
+                    <p><label class="question">Your age:</label><br>
+                        <label><input type="radio" name="Age" value="From 18 to 25">From 18 to 25</label><br>
+                        <label><input type="radio" name="Age" value="From 25 to 40">From 25 to 40</label><br>
+                        <label><input type="radio" name="Age" value="From 40 to 60">From 40 to 60</label><br>
+                        <label><input type="radio" name="Age" value="Over 60">Over 60</label><br>
+                        <label><input type="radio" name="Age" value="It doesn't matter">It doesn't matter</label>
+                    </p>
+    
+                    <p class="question">What kind of sport do you plan to do?
+                        <select name="Sport preferences" size="1" class="select_menu">
+                            <option value="Bodybuilding">Bodybuilding</option>
+                            <option value="Good old kettlebells!">Good old kettlebells!</option>
+                            <option value="Boxing">Boxing</option>
+                            <option value="Cardio and fat burning workouts">Cardio and fat burning workouts</option>
+                            <option value="Not yet identified">Not yet identified</option>
+                        </select>
+                    </p>
+                     
+                    <p><label class="question">Enter your name
+                            <input type="text" name="Name" class="feedback-input">
+                        </label>
+                    </p>
+                    <p><label class="question">Enter your email
+                            <input type="text" name="Email" class="feedback-input">
+                        </label>
+                    </p>
+                    <p><label class="question">Enter your phone number
+                            <input type="text" name="Email" class="feedback-input">
+                        </label>
+                    </p>
+                    <textarea name="Comments" cols="48" rows="8" placeholder="For comments"></textarea><br>
+                    <input type="submit" value="SUBMIT" class="button-submit">
+                </form>
+            </main>
+        </main>
+        
+        <footer>
+            <div class="footer-blackLine container-fluid">
+                <div class="footerConteiner">
+                    <div class="footerNav">
+                        <a href="index.html">HOME</a>
+                        <a href="html/sports.html">SPORTS</a>
+                        <a href="html/contacts.html">CONTACTS</a>
+                        <a href="html/location.html">LOCATION</a>
+                    </div>
+                    <div class="social">
+                        <a href="#"><img src="img/social-icons/email.png" alt="email"></a>
+                        <a href="#"><img src="img/social-icons/facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="img/social-icons/google.png" alt="google"></a>
+                        <a href="#"><img src="img/social-icons/instagram.png" alt="instagram"></a>
+                        <a href="#"><img src="img/social-icons/pinterest.png" alt="pinterest"></a>
+                    </div>
+                    <p id="progres">In progress</p>
+                </div>
+                <div><img class="footer-blackLineImg" src="img/footer-sparta-logo.png" alt="white spartan helmet">
+                    <p class="footer-gymName">Black Work GYM</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script> 
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+    </body>
+
+</html>

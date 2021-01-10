@@ -1,0 +1,196 @@
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.header-blackLine {
+    background-color: #000;
+}
+.header-blackLineImg {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.header-gymName {
+    color: white;
+    font-family: 'Pirata One', cursive;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+.header-logoContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: -75px;
+    margin-bottom: -20px; 
+}
+nav {
+	text-align: center;
+	margin: auto;
+	height: 50px;
+}
+.topnav {
+	background-color: #fff;
+	font-size: 14px;
+	margin-top: 70px;
+}
+.topnav a {
+	color: #000;
+	text-align: center;
+	padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.topnav a:hover:not(:last-child) {
+    border-bottom: 2px solid #000;
+    color: #5ebde9;
+    transition: all .25s;
+}
+.topnav .icon {
+    display: none;
+}
+
+.page_picture {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+services_container {
+	display: flex;
+    align-items: center;
+	justify-content: center;
+}
+.services {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.services_items {
+    margin-top: 50px;
+	width: 40%;
+    text-align: center;
+}
+.price {
+    font-weight: bold;
+}
+/* .card-container {
+    display: flex;
+    justify-content: center;
+	justify-content: space-around;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 50%;
+}
+.card {
+	width: 40%;
+}
+.price {
+    font-weight: bold;
+} */
+
+.footer-blackLine {
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}
+.footerConteiner {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.footerNav {
+    margin-bottom: 10px;
+}
+.footerNav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.footerNav a:hover {
+	border-bottom: 1px solid #5ebde9;
+    color: #5ebde9;
+    transition: all .25s;
+}
+.social img {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.social img:hover {
+	background: #5ebde9;
+	border-radius: 50%;
+}
+.footer-blackLineImg {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.footer-gymName {
+    color: white;
+    background-color: black;
+    font-family: 'Pirata One', cursive;
+    padding-bottom: 5px;
+    margin-right: 20px;
+}
+#progres {
+    color: #5ebde9;
+    font-family: 'Pirata One', cursive;
+    font-size: 15px;
+
+}
+
+
+@media screen and (max-width: 760px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+    .nav {
+        width: 100%;
+        height: 100px;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-mainLogo {
+        margin-left: 40px;
+        padding-top: 10px;
+    }
+    .page_picture img {
+        width: 100%;
+        display: block;
+    }.services_items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        }
+    .services_items {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .services_items {
+        grid-template-columns: 1fr;
+    }
+    .services_items img {
+        width: 100%;
+        display: block;
+    }
+}
